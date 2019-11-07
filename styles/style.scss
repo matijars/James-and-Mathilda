@@ -8,6 +8,8 @@
   z-index: 100;
 }
 
+// HERO
+
 .hero {
   height: 100vh;
   display: flex;
@@ -31,6 +33,38 @@
       &:last-of-type {
         margin-bottom: 5px;
       }
+    }
+  }
+}
+
+// PREVIEW SECTION
+
+.preview {
+  background-color: #2F3A3E;
+
+  .preview-block {
+    text-align: center;
+    margin: 40px 0px;
+    padding: 0px 30px;
+
+    &:nth-of-type(2) {
+      border-left: 1px solid #475256;
+      border-right: 1px solid #475256;
+    }
+
+    p {
+      color: #fff;
+      font-size: 13px;
+      margin: 25px 0px 0px 0px;
+      font-weight: 500;
+    }
+
+    img {
+      transition: .5s ease-in;
+    }
+
+    &:hover > img {
+      transform: translateY(-10px);
     }
   }
 }

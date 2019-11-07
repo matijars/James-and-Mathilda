@@ -106,4 +106,36 @@
 .hero .carousel-inner .hero-text:last-of-type {
   margin-bottom: 5px;
 }
+
+.preview {
+  background-color: #2F3A3E;
+}
+
+.preview .preview-block {
+  text-align: center;
+  margin: 40px 0px;
+  padding: 0px 30px;
+}
+
+.preview .preview-block:nth-of-type(2) {
+  border-left: 1px solid #475256;
+  border-right: 1px solid #475256;
+}
+
+.preview .preview-block p {
+  color: #fff;
+  font-size: 13px;
+  margin: 25px 0px 0px 0px;
+  font-weight: 500;
+}
+
+.preview .preview-block img {
+  -webkit-transition: .5s ease-in;
+  transition: .5s ease-in;
+}
+
+.preview .preview-block:hover > img {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
 /*# sourceMappingURL=style.css.map */
