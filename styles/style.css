@@ -19,6 +19,22 @@
           box-sizing: border-box;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar .navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar .hamburger {
+  color: #fff;
+  font-size: 30px;
+}
+
 .navbar-collapse .nav-link {
   color: #F5E389 !important;
   text-transform: uppercase;
@@ -67,11 +83,18 @@
   border-color: #4D937E;
 }
 
-.navbar {
-  background-color: transparent;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
+.title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .hero {
@@ -91,6 +114,7 @@
 .hero .carousel-inner {
   color: #fff;
   text-align: center;
+  margin-top: 150px;
 }
 
 .hero .carousel-inner .hero-header {
@@ -104,7 +128,21 @@
 }
 
 .hero .carousel-inner .hero-text:last-of-type {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.hero .carousel-indicators {
+  margin: 95px;
+}
+
+.hero .carousel-indicators li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.hero .signature {
+  margin-bottom: 50px;
 }
 
 .preview {
@@ -137,5 +175,46 @@
 .preview .preview-block:hover > img {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
+}
+
+.services {
+  background-color: #F0EEE1;
+  padding: 60px 0px;
+}
+
+.services .services-title {
+  color: #2F3A3D;
+}
+
+.services .services-subtitle {
+  color: #6e9182;
+  margin-bottom: 50px;
+}
+
+.services .services-block {
+  padding: 30px 15px 50px 15px;
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
+.services .services-block:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+.services .services-block .block-title {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #31383B;
+}
+
+.services .services-block .block-text {
+  font-size: 14px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */

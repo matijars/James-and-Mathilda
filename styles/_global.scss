@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+// NAVBAR
+
+.navbar {
+  background-color: rgba(0,0,0, .4);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+
+  .navbar-toggler {
+
+    &:focus{
+      outline: none;
+    }
+  }
+
+  .hamburger {
+    color: #fff;
+    font-size: 30px;
+  }
+}
+
 .navbar-collapse  {
   .nav-link {
     color: $primary-clr !important;
@@ -28,6 +49,7 @@
   }
 }
 
+// BUTTON
 .primary-btn {
   display: block;
   margin: 50px auto 0 auto;
@@ -51,3 +73,20 @@
     border-color: $secondary-clr;
   }
 }
+
+// TITLES & SUBTITLES
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
