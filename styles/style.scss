@@ -1,0 +1,36 @@
+@import "variables";
+@import "global";
+
+.navbar {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  background-image: url(/assets/home-1.jpg);
+  justify-content: center;
+  align-items: center;
+  
+  .carousel-inner {
+    color: #fff;
+    text-align: center;
+
+    .hero-header {
+      margin-bottom: 50px;
+      font-weight: 300;
+      font-size: 50px;
+    }
+
+    .hero-text {
+      font-size: 17px;
+
+      &:last-of-type {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
