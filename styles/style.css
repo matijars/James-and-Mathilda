@@ -199,6 +199,7 @@
   box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
+  min-height: 200px;
 }
 
 .services .services-block:hover {
@@ -216,5 +217,142 @@
 .services .services-block .block-text {
   font-size: 14px;
   font-weight: 400;
+}
+
+.contact {
+  background-color: #32A773;
+  padding: 60px 0px;
+}
+
+.contact .contact-title {
+  color: #fff;
+}
+
+.contact .contact-subtitle {
+  color: #bedacd;
+}
+
+.contact .contact-call-email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 70px 0px 25px 0px;
+}
+
+.contact .contact-call-email img {
+  height: 27px;
+}
+
+.contact .contact-call-email h5 {
+  font-size: 27px;
+  color: #F5E776;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.contact .call-num {
+  color: #fff;
+  font-weight: 500;
+}
+
+.contact .call-num .number {
+  color: #1A4632;
+  font-weight: bold;
+}
+
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact form .inputs {
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding: 10px 20px;
+}
+
+.contact form .inputs::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact form .inputs:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact form .inputs::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact form .inputs::placeholder {
+  color: #fff;
+}
+
+.contact form .inputs:last-of-type {
+  margin-bottom: 0px;
+}
+
+.contact form .name-input, .contact form .email-input {
+  max-width: 350px;
+}
+
+.contact form .contact-btn {
+  margin-left: 0;
+}
+
+.contact form .contact-btn img {
+  margin-left: 10px;
+}
+
+.contact form .contact-btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.about {
+  background-image: url(/assets/about-us-background.jpg);
+  background-size: cover;
+  padding: 70px 0px 90px 0px;
+  color: #fff;
+}
+
+.about .about-row {
+  margin-top: 30px;
+}
+
+.about .about-title {
+  font-size: 50px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.about .about-text {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.about .about-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about .about-bottom .sincerely p {
+  padding: 0;
+  margin: 0;
+}
+
+.about .about-btn {
+  margin: 0;
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

@@ -82,7 +82,7 @@
 // SERVICES SECTION
 
 .services {
-  background-color: #F0EEE1;
+  background-color: $services-bg-clr;
   padding: 60px 0px;
 
   .services-title {
@@ -94,8 +94,7 @@
     margin-bottom: 50px;
   }
 
-  .services-block {
-    
+  .services-block {   
     padding: 30px 15px 50px 15px;
     text-align: center;
     background-color: #fff;
@@ -103,6 +102,7 @@
     -moz-box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: 0px 1px 3px -1px rgba(0,0,0,0.75);
     transition: .2s ease-in;
+    min-height: 200px;
 
     &:hover {
       transform: scale(1.04);
@@ -119,5 +119,127 @@
       font-size: 14px;
       font-weight: 400;
     }
+  }
+}
+
+// CONTACT US SECTION
+
+.contact {
+  background-color: $contact-bg-clr ;
+  padding: 60px 0px;
+
+  .contact-title {
+    color: #fff;
+  }
+  
+  .contact-subtitle {
+    color: rgb(190, 218, 205);
+  }
+
+  .contact-call-email {
+    display: flex;
+    margin: 70px 0px 25px 0px;
+
+    & img {
+      height: 27px;
+      
+    }
+
+    & h5 {
+      font-size: 27px;
+      color: #F5E776;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+  }
+
+  .call-num {
+    color: #fff;
+    font-weight: 500;
+
+    .number {
+      color: #1A4632;
+      font-weight: bold;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    .inputs {
+      margin-bottom: 20px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #fff;
+      padding: 10px 20px;
+
+      &::placeholder {
+        color: #fff; 
+      }
+
+      &:last-of-type {
+        margin-bottom: 0px;
+      }
+    }
+
+    .name-input, .email-input {
+      max-width: 350px;
+    }
+
+    .contact-btn {
+      margin-left: 0;
+
+      & img {
+        margin-left: 10px;
+      }
+
+      &:hover {
+        color: #fff;
+        border-color: #fff;
+      }
+    }
+  }
+}
+
+// ABOUT US 
+
+.about {
+  background-image: url(/assets/about-us-background.jpg);
+  background-size: cover;
+  padding: 70px 0px 90px 0px;
+  color: #fff;
+
+  .about-row {
+    margin-top: 30px;
+  }
+
+  .about-title {
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  .about-text {
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .about-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    .sincerely p {
+      padding: 0;
+      margin: 0;
+    }
+
+    & img {
+    }
+  }
+
+  .about-btn {
+    margin: 0;
+    display: block;
   }
 }
