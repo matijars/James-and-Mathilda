@@ -103,6 +103,7 @@
   display: -ms-flexbox;
   display: flex;
   background-image: url(/assets/home-1.jpg);
+  background-size: cover;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
