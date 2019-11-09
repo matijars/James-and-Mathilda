@@ -229,13 +229,14 @@
 
 .services .services-block {
   padding: 30px 15px 50px 15px;
+  margin-bottom: 30px;
+  height: 300px;
   text-align: center;
   background-color: #fff;
   -webkit-box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
-  min-height: 200px;
 }
 
 .services .services-block:hover {
@@ -354,6 +355,8 @@
 .about {
   background-image: url(/assets/about-us-background.jpg);
   background-size: cover;
+  background-position-y: 80px;
+  background-attachment: fixed;
   padding: 70px 0px 90px 0px;
   color: #fff;
 }
@@ -404,13 +407,29 @@
   font-size: 14px;
 }
 
+@media (max-width: 992px) {
+  .footer {
+    padding: 40px 0px;
+  }
+}
+
 .footer p {
   margin-bottom: 0;
 }
 
 .footer a {
-  margin-left: 25px;
+  padding-left: 17px;
+  margin-left: 17px;
   text-decoration: none;
+  border-left: 2px solid #b9b9b9;
+  line-height: 14px;
+}
+
+@media (max-width: 992px) {
+  .footer a {
+    border: none;
+    margin: 6px 0px;
+  }
 }
 
 .footer .footer-links {
@@ -420,6 +439,24 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 992px) {
+  .footer .footer-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer .footer-links p {
+    margin-bottom: 10px;
+  }
 }
 
 .footer .footer-links .footer-link {
@@ -443,6 +480,26 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: 0px;
+}
+
+@media (max-width: 992px) {
+  .footer .footer-social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer .footer-social p {
+    display: none;
+  }
 }
 
 .footer .footer-social i {
