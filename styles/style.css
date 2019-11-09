@@ -26,6 +26,14 @@
   z-index: 100;
 }
 
+.navbar .dropdown-toggle .fa-angle-down {
+  margin-left: 10px;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
 .navbar .navbar-toggler:focus {
   outline: none;
 }
@@ -33,6 +41,10 @@
 .navbar .hamburger {
   color: #fff;
   font-size: 30px;
+}
+
+.navbar .dropdown-menu {
+  position: absolute;
 }
 
 .navbar-collapse .nav-link {
