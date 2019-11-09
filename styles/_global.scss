@@ -7,7 +7,7 @@
 // NAVBAR
 
 .navbar {
-  background-color: rgba(0,0,0, .4);
+  background-color: transparent;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -87,6 +87,21 @@
         top: 0px;
         left: 0px;
       }
+    }
+
+    .checkout {
+      color: rgb(134, 152, 155);
+      font-size: 12px;
+      transition: .2s ease-in;
+      margin-top: -10px;
+
+      &:hover {
+        color: $primary-clr;
+      }
+    }
+
+    .checkout-arrow {
+      font-size: 12px;
     }
   }
 

@@ -20,7 +20,7 @@
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: transparent;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -96,6 +96,22 @@
     top: 0px;
     left: 0px;
   }
+}
+
+.navbar-collapse .order .checkout {
+  color: #86989b;
+  font-size: 12px;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+  margin-top: -10px;
+}
+
+.navbar-collapse .order .checkout:hover {
+  color: #F5E389;
+}
+
+.navbar-collapse .order .checkout-arrow {
+  font-size: 12px;
 }
 
 .navbar-collapse .active-link {
