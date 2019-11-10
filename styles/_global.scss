@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; 
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: 'Noto Serif', serif;
 }
 
 // NAVBAR
@@ -53,6 +59,7 @@
 }
 
 .navbar-collapse  {
+  padding-top: 11px;
 
   .nav-link {
     color: $primary-clr !important;
@@ -65,12 +72,18 @@
     &:hover {
       color: #fff !important;
     }
+
+    @media (max-width: 992px) {
+      margin-left: 0px;
+      padding-top: 2px;
+    }
   }
 
   .order {
     color: #fff !important;
     text-transform: initial;
     position: relative;
+    line-height: 15px;
 
     &::before {
       content: "";
@@ -83,8 +96,8 @@
 
       @media (max-width: 992px) {
         height: 2px;
-        width: 35px;
-        top: 0px;
+        width: 40px;
+        top: -4px;
         left: 0px;
       }
     }
@@ -93,14 +106,21 @@
       color: rgb(134, 152, 155);
       font-size: 12px;
       transition: .2s ease-in;
-
-      &:hover {
-        color: $primary-clr;
-      }
     }
 
     .checkout-arrow {
       font-size: 12px;
+      margin-left: 3px;
+      color: #fff !important;
+      transition: transform .7s ease-in;
+    }
+
+    &:hover > .checkout {
+      color: $primary-clr;
+    }
+
+    &:hover > .checkout-arrow {
+      transform: rotateX(360deg);
     }
   }
 
@@ -118,11 +138,12 @@
   border: 3px solid $primary-clr;
   border-radius: 7px;
   color: $primary-clr;
-  padding: 15px 35px;
+  padding: 15px 40px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   transition: .2s ease-in;
+  font-family: 'Noto Serif', serif;
 
   i {
     font-size: 17px;
