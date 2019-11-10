@@ -8,7 +8,7 @@
 .hero {
   height: 100vh;
   display: flex;
-  background-image: url(/assets/home-1.jpg);
+  background-image: url(../assets/home-1.jpg);
   background-size: cover;
   justify-content: center;
   align-items: center;
@@ -226,7 +226,7 @@
 // ABOUT US 
 
 .about {
-  background-image: url(/assets/about-us-background.jpg);
+  background-image: url(../assets/about-us-background.jpg);
   background-size: cover;
   background-position-y: 80px;
   background-attachment: fixed;
