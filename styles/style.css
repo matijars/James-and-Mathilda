@@ -29,8 +29,8 @@ h1, h2, h3, h4, h5, h6, p, a {
   position: fixed;
   width: 100%;
   z-index: 100;
-  -webkit-transition: background-color 200ms linear;
-  transition: background-color 200ms linear;
+  -webkit-transition: background-color .7s ease;
+  transition: background-color .7s ease;
 }
 
 @media (max-width: 992px) {
@@ -52,7 +52,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .navbar .dropdown-toggle .fa-angle-down {
+  font-size: 20px;
   margin-left: 10px;
+  -webkit-transition: .7s ease-in;
+  transition: .7s ease-in;
 }
 
 .navbar .dropdown-toggle::after {
@@ -70,18 +73,25 @@ h1, h2, h3, h4, h5, h6, p, a {
 .navbar .hamburger {
   color: #fff;
   font-size: 30px;
-  -webkit-transition: -webkit-transform .4s ease-in;
-  transition: -webkit-transform .4s ease-in;
-  transition: transform .4s ease-in;
-  transition: transform .4s ease-in, -webkit-transform .4s ease-in;
 }
 
 .navbar .dropdown-menu {
   position: absolute;
 }
 
+.navbar .dropdown:hover > .dropdown-toggle .fa-angle-down {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+
 .navbar-collapse {
   padding-top: 11px;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    padding-top: 0px;
+  }
 }
 
 .navbar-collapse .nav-link {
@@ -161,10 +171,14 @@ h1, h2, h3, h4, h5, h6, p, a {
   color: #fff !important;
 }
 
+@media (max-width: 992px) {
+  .navbar-collapse .nav-item:first-child {
+    margin-top: 15px;
+  }
+}
+
 .scrolled {
   background-color: rgba(20, 20, 20, 0.8);
-  -webkit-transition: background-color .6s ease-in;
-  transition: background-color .6s ease-in;
 }
 
 .primary-btn {
@@ -242,7 +256,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .hero .carousel-inner {
   color: #fff;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .hero .carousel-inner .icons-xs {
@@ -265,7 +279,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .hero .carousel-inner .hero-header {
   margin-bottom: 50px;
   font-weight: initial;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .hero .carousel-inner .hero-text {
