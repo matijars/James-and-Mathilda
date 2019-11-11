@@ -153,17 +153,18 @@ h1, h2, h3, h4, h5, h6, p, a {
       -ms-flex-align: center;
           align-items: center;
   margin: 50px auto 0 auto;
+  padding: 15px 35px;
   background: transparent;
-  border: 3px solid #F5E389;
+  border: 2.5px solid #F5E389;
   border-radius: 7px;
   color: #F5E389;
-  padding: 15px 40px;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 11px;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
   font-family: 'Noto Serif', serif;
+  letter-spacing: 1.2px;
 }
 
 .primary-btn i {
@@ -512,7 +513,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 .footer {
   padding: 60px 0px;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 @media (max-width: 992px) {

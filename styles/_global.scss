@@ -134,16 +134,17 @@ h1, h2, h3, h4, h5, h6, p, a {
   display: flex;
   align-items: center;
   margin: 50px auto 0 auto;
+  padding: 15px 35px;
   background: transparent;
-  border: 3px solid $primary-clr;
+  border: 2.5px solid $primary-clr;
   border-radius: 7px;
   color: $primary-clr;
-  padding: 15px 40px;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 11px;
   transition: .2s ease-in;
   font-family: 'Noto Serif', serif;
+  letter-spacing: 1.2px;
 
   i {
     font-size: 17px;
