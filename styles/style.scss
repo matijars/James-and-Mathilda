@@ -223,6 +223,34 @@
       }
     }
   }
+
+  @media (max-width: 767px) {
+    
+    .contact-call-email { 
+      justify-content: center; 
+    }
+
+    .call-num { 
+      text-align: center; 
+    }
+
+    .contact-call-email { 
+      justify-content: center; 
+      margin-top: 20px;
+    }
+
+    form { 
+      align-items: center; 
+    
+      & input { 
+        width: 60%;
+      }
+
+      & .contact-btn {
+        margin: 30px auto 0px auto;
+      }
+    }
+  }
 }
 
 // ABOUT US 
@@ -265,6 +293,10 @@
       font-size: 13px;
       font-style: italic;
     }
+
+    @media (max-width: 450px) {
+      flex-direction: column;
+    }
   }
 
   .about-btn {
@@ -272,6 +304,12 @@
 
     &:hover > i {
       transform: rotateX(360deg) !important;
+    }
+
+    @media (max-width: 450px) {
+      display: block;
+      margin: 50px auto 0 auto;
+      padding: 15px 35px;
     }
   }
 }
@@ -287,6 +325,10 @@
     padding: 40px 0px;
   }
 
+  @media (max-width: 369px) {
+    text-align: center;
+  }
+
   .footer-links {
     display: flex;
     align-items: center;
@@ -296,14 +338,12 @@
       justify-content: center;
     }
 
-    p {
+    & p {
+      margin-bottom: 0px;
+
       @media (max-width: 992px) { 
         margin-bottom: 10px;
       }
-    }
-
-    & p {
-      margin-bottom: 0;
     }
   
     & a {
@@ -316,6 +356,7 @@
       @media (max-width: 992px) { 
         border: none;
         margin: 6px 0px;
+        padding-left: 0px;
       }
     }
 
@@ -379,6 +420,10 @@
         color: #fff;
         background-color: #3A5997;
         border-radius: 3px;
+      }
+
+      @media (max-width: 992px) { 
+        margin-left: 0px;
       }
     }
 
