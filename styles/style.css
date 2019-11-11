@@ -18,6 +18,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -251,6 +252,12 @@ h1, h2, h3, h4, h5, h6, p, a {
           align-items: center;
   -webkit-transition: .7s ease-in;
   transition: .7s ease-in;
+}
+
+@media (max-width: 767px) {
+  .hero {
+    padding: 450px 0px;
+  }
 }
 
 .hero .carousel-inner {
