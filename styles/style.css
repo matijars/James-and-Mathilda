@@ -254,7 +254,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   transition: .7s ease-in;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px), screen and (max-height: 640px) {
   .hero {
     padding: 450px 0px;
   }
