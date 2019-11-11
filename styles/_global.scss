@@ -13,10 +13,15 @@ h1, h2, h3, h4, h5, h6, p, a {
 // NAVBAR
 
 .navbar {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: transparent;
   position: fixed;
   width: 100%;
   z-index: 100;
+  transition: background-color 200ms linear;
+
+  @media (max-width: 992px) {
+    background-color: rgba(20, 20, 20, .8);
+  }
 
   @media (max-width: 450px) {
     .brand-lg {
@@ -42,6 +47,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   }
 
   .navbar-toggler {
+    border: none;
 
     &:focus{
       outline: none;
@@ -51,6 +57,7 @@ h1, h2, h3, h4, h5, h6, p, a {
   .hamburger {
     color: #fff;
     font-size: 30px;
+    transition: transform .4s ease-in;
   }
 
   .dropdown-menu {
@@ -129,6 +136,12 @@ h1, h2, h3, h4, h5, h6, p, a {
   }
 }
 
+// NAVBAR SCROLLED
+.scrolled {
+  background-color: rgba(20, 20, 20, .8);
+  transition: background-color .6s ease-in;
+}
+
 // BUTTON
 .primary-btn {
   display: flex;
@@ -177,4 +190,3 @@ h1, h2, h3, h4, h5, h6, p, a {
   font-size: 17px;
   font-weight: 500;
 }
-
