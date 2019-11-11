@@ -452,6 +452,10 @@ h1, h2, h3, h4, h5, h6, p, a {
   padding: 10px 20px;
 }
 
+.contact form .inputs:focus {
+  outline: none;
+}
+
 .contact form .inputs::-webkit-input-placeholder {
   color: #fff;
   font-family: 'Noto Serif', serif;

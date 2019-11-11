@@ -199,6 +199,10 @@
       border-bottom: 2px solid #fff;
       padding: 10px 20px;
 
+      &:focus {
+        outline: none;
+      }
+
       &::placeholder {
         color: #fff; 
         font-family: 'Noto Serif', serif;
