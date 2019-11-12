@@ -1,0 +1,24 @@
+{
+  "name": "james-mathilda",
+  "version": "1.0.0",
+  "description": "James and Mathilda",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matijars/Internship-Test---James-Matilda.git"
+  },
+  "author": "Matija Milosevic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matijars/Internship-Test---James-Matilda/issues"
+  },
+  "homepage": "https://github.com/matijars/Internship-Test---James-Matilda#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
