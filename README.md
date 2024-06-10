@@ -1,4 +1,5 @@
-<div align='center'><img style="width:30%" src='/assets/james-and-mathilda.png'/></div>
+<div align='center'><img style="width:30%" src='![image](https://github.com/matijars/Internship-Test---James-Matilda/assets/49566971/7a61a381-b56e-4616-b3d3-c4c90cea8746)
+'/></div>
 
 <h2>About the project</h2>
 
