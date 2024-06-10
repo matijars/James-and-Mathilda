@@ -1,5 +1,4 @@
-<div align='center'>![image](https://github.com/matijars/Internship-Test---James-Matilda/assets/49566971/7e17a782-cfcc-416c-8748-bb7da4883141)
-</div>
+[image](https://github.com/matijars/Internship-Test---James-Matilda/assets/49566971/7e17a782-cfcc-416c-8748-bb7da4883141)
 
 <h2>About the project</h2>
 
