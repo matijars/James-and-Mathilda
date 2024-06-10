@@ -1,6 +1,3 @@
-<div align='center'> ![image](https://github.com/matijars/Internship-Test---James-Matilda/assets/49566971/9b148359-63e3-4fc1-8658-449c869378dd) </div>
-
-
 <h2>About the project</h2>
 
 <p><b>James and Mathilda</b> is a landing page website, designed to showcase my frontend skills. Using HTML, CSS, jQuery, and Font Awesome icons, I crafted a visually appealing interface with parallax effects. The site is fully responsive, thanks to Bootstrap's slider component. This project represents one of my first steps into frontend development, highlighting my early proficiency in crafting engaging web experiences.</p>
